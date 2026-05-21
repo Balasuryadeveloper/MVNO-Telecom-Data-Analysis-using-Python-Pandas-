@@ -1,0 +1,44 @@
+[
+  {
+    "Usage_ID": "U001",
+    "Customer_ID": "C001",
+    "Usage_Date": "2026-03-01",
+    "Data_Used_GB": 1.2,
+    "Voice_Used_Minutes": 450
+  },
+  {
+    "Usage_ID": "U002",
+    "Customer_ID": "C002",
+    "Usage_Date": "2026-03-05",
+    "Data_Used_GB": 3.5,
+    "Voice_Used_Minutes": 120
+  },
+  {
+    "Usage_ID": "U003",
+    "Customer_ID": "C003",
+    "Usage_Date": "2026-03-10",
+    "Data_Used_GB": null,
+    "Voice_Used_Minutes": 900
+  },
+  {
+    "Usage_ID": "U004",
+    "Customer_ID": "C004",
+    "Usage_Date": "2026-03-12",
+    "Data_Used_GB": 4.2,
+    "Voice_Used_Minutes": 1800
+  },
+  {
+    "Usage_ID": "U005",
+    "Customer_ID": "C005",
+    "Usage_Date": "2026-03-15",
+    "Data_Used_GB": 0.8,
+    "Voice_Used_Minutes": 300
+  },
+  {
+    "Usage_ID": "U006",
+    "Customer_ID": "C006",
+    "Usage_Date": "2026-03-20",
+    "Data_Used_GB": 2.9,
+    "Voice_Used_Minutes": null
+  }
+]

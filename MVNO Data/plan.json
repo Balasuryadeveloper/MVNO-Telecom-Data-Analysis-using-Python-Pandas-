@@ -1,0 +1,34 @@
+[
+  {
+    "Plan_ID": "P101",
+    "Plan_Name": "Combo Saver",
+    "Plan_Type": "Combo",
+    "Monthly_Price": 299,
+    "Data_Limit_GB": 1.5,
+    "Voice_Limit_Minutes": 500
+  },
+  {
+    "Plan_ID": "P102",
+    "Plan_Name": "Data Max",
+    "Plan_Type": "Data",
+    "Monthly_Price": 499,
+    "Data_Limit_GB": 3,
+    "Voice_Limit_Minutes": null
+  },
+  {
+    "Plan_ID": "P103",
+    "Plan_Name": "Voice Basic",
+    "Plan_Type": "Voice",
+    "Monthly_Price": 199,
+    "Data_Limit_GB": 0.5,
+    "Voice_Limit_Minutes": 800
+  },
+  {
+    "Plan_ID": "P104",
+    "Plan_Name": "Unlimited Pro",
+    "Plan_Type": "Combo",
+    "Monthly_Price": 799,
+    "Data_Limit_GB": 5,
+    "Voice_Limit_Minutes": 2000
+  }
+]

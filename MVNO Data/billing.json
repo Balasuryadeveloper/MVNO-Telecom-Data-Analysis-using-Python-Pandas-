@@ -1,0 +1,68 @@
+[
+  {
+    "Billing_ID": "B001",
+    "Customer_ID": "C001",
+    "Plan_ID": "P101",
+    "Bill_Date": "2026-03-31",
+    "Total_Amount": 299,
+    "Discount_Percentage": 10,
+    "Final_Amount": 269.1,
+    "Payment_Status": "Paid",
+    "Payment_Method": "UPI"
+  },
+  {
+    "Billing_ID": "B002",
+    "Customer_ID": "C002",
+    "Plan_ID": "P102",
+    "Bill_Date": "2026-03-31",
+    "Total_Amount": 550,
+    "Discount_Percentage": 5,
+    "Final_Amount": 522.5,
+    "Payment_Status": "Paid",
+    "Payment_Method": "Card"
+  },
+  {
+    "Billing_ID": "B003",
+    "Customer_ID": "C003",
+    "Plan_ID": "P103",
+    "Bill_Date": "2026-03-31",
+    "Total_Amount": 250,
+    "Discount_Percentage": null,
+    "Final_Amount": 250,
+    "Payment_Status": "Pending",
+    "Payment_Method": "UPI"
+  },
+  {
+    "Billing_ID": "B004",
+    "Customer_ID": "C004",
+    "Plan_ID": "P104",
+    "Bill_Date": "2026-03-31",
+    "Total_Amount": 799,
+    "Discount_Percentage": 15,
+    "Final_Amount": 679.15,
+    "Payment_Status": "Failed",
+    "Payment_Method": "NetBanking"
+  },
+  {
+    "Billing_ID": "B005",
+    "Customer_ID": "C005",
+    "Plan_ID": "P101",
+    "Bill_Date": "2026-03-31",
+    "Total_Amount": 299,
+    "Discount_Percentage": 0,
+    "Final_Amount": 299,
+    "Payment_Status": "Paid",
+    "Payment_Method": null
+  },
+  {
+    "Billing_ID": "B006",
+    "Customer_ID": "C006",
+    "Plan_ID": "P102",
+    "Bill_Date": "2026-03-31",
+    "Total_Amount": 499,
+    "Discount_Percentage": 8,
+    "Final_Amount": 459.08,
+    "Payment_Status": "Paid",
+    "Payment_Method": "Card"
+  }
+]

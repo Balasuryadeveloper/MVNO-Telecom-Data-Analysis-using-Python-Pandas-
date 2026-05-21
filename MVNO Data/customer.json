@@ -1,0 +1,38 @@
+[
+  {
+    "Customer_ID": "C001",
+    "Customer_Name": "Arun Kumar",
+    "Customer_Segment": "Prepaid",
+    "Join_Date": "2024-01-15"
+  },
+  {
+    "Customer_ID": "C002",
+    "Customer_Name": "Priya Sharma",
+    "Customer_Segment": "Postpaid",
+    "Join_Date": "2023-11-20"
+  },
+  {
+    "Customer_ID": "C003",
+    "Customer_Name": "Rahul Das",
+    "Customer_Segment": "Prepaid",
+    "Join_Date": "2025-06-10"
+  },
+  {
+    "Customer_ID": "C004",
+    "Customer_Name": "Sneha Iyer",
+    "Customer_Segment": "Postpaid",
+    "Join_Date": "2022-09-01"
+  },
+  {
+    "Customer_ID": "C005",
+    "Customer_Name": "Karthik R",
+    "Customer_Segment": "Prepaid",
+    "Join_Date": "2024-07-19"
+  },
+  {
+    "Customer_ID": "C006",
+    "Customer_Name": "Meena S",
+    "Customer_Segment": "Postpaid",
+    "Join_Date": "2023-02-25"
+  }
+]
