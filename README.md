@@ -1,5 +1,8 @@
 # 📊 MVNO Telecom Data Analysis using Python (Pandas)
 
+##🔹 Problem Statement:
+Analyze MVNO telecom data to identify revenue drivers, customer usage patterns, and profit opportunities.
+
 ## 🚀 Project Overview
 This project focuses on analyzing a telecom (MVNO) dataset using Python (Pandas).  
 The goal is to perform **end-to-end data analysis**, including data cleaning, transformation, and deriving meaningful business insights.
