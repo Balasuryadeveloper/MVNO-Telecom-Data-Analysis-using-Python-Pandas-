@@ -1,180 +1,81 @@
 # 📊 MVNO Telecom Data Analysis using Python (Pandas)
 
-##🔹 Problem Statement:
-Analyze MVNO telecom data to identify revenue drivers, customer usage patterns, and profit opportunities.
+## 🔍 Project Overview
+This project focuses on analyzing MVNO (Mobile Virtual Network Operator) telecom data to understand customer behavior, identify key revenue drivers, and uncover business insights.
 
-## 🚀 Project Overview
-This project focuses on analyzing a telecom (MVNO) dataset using Python (Pandas).  
-The goal is to perform **end-to-end data analysis**, including data cleaning, transformation, and deriving meaningful business insights.
-
-The dataset includes:
-- Customer details
-- Plan information
-- Usage data
-- Billing transactions
+The analysis is performed using Python with Pandas, applying real-world data analytics techniques such as data cleaning, transformation, aggregation, and merging.
 
 ---
 
-## 🎯 Objectives
-- Analyze revenue and billing performance  
-- Understand customer usage behavior  
-- Evaluate plan performance  
-- Identify business opportunities (upsell, downgrade, overpricing)  
-- Perform customer segmentation  
+## 🎯 Problem Statement
+Telecom companies generate large volumes of customer usage data. However, deriving meaningful insights from this data is crucial for improving revenue, optimizing plans, and targeting the right customer segments.
+
+This project aims to:
+- Analyze customer usage patterns
+- Identify high-value customers
+- Understand revenue and profitability drivers
+- Provide actionable business insights
 
 ---
 
-## 🛠️ Tools & Technologies
-- Python 🐍  
-- Pandas  
-- Jupyter Notebook / Google Colab  
+## 🛠️ Tools & Technologies Used
+- **Python**
+- **NumPy**
+- **Pandas**
+- Jupyter Notebook
 
 ---
 
-## 📦 Dataset Description
-
-### 👤 Customer Data
-- Customer_ID  
-- Customer_Name  
-- Customer_Segment (Prepaid / Postpaid)  
-- Join_Date  
-
-### 📱 Plan Data
-- Plan_ID  
-- Plan_Name  
-- Plan_Type (Data / Voice / Combo)  
-- Monthly_Price  
-- Data_Limit_GB  
-- Voice_Limit_Minutes  
-
-### 📶 Usage Data
-- Usage_ID  
-- Customer_ID  
-- Usage_Date  
-- Data_Used_GB  
-- Voice_Used_Minutes  
-
-### 💰 Billing Data
-- Billing_ID  
-- Customer_ID  
-- Plan_ID  
-- Bill_Date  
-- Total_Amount  
-- Discount_Percentage  
-- Final_Amount  
-- Payment_Status  
-- Payment_Method  
+## 📂 Dataset Description
+The dataset contains telecom customer usage data including:
+- Customer usage metrics (Data, Voice, etc.)
+- Revenue-related fields
+- Customer segmentation attributes
 
 ---
 
-## 🧹 Data Cleaning Steps
-- Handled missing values (Data Usage, Voice Usage, Discounts)  
-- Converted date columns to datetime format  
-- Standardized column formats  
-- Validated revenue calculations  
+## ⚙️ Key Operations Performed
+- ✅ Data Cleaning (handling missing values, formatting)
+- ✅ Feature Engineering (creating new columns like Profit, Margin%)
+- ✅ GroupBy Analysis (customer segmentation insights)
+- ✅ Aggregations (`.agg()` for multiple metrics)
+- ✅ Merge Operations (combining datasets)
+- ✅ Apply Functions (custom business logic)
 
 ---
 
-## 🔗 Data Modeling
-- Merged multiple datasets using:
-  - Customer_ID  
-  - Plan_ID  
+## 📊 Key Insights
 
-Final dataset created for analysis:
+🔹 High data usage customers contribute significantly more revenue compared to voice-only users  
 
----
+🔹 A small percentage of customers (high ARPU users) generate the majority of total profit  
 
-## 📊 Key Business Analysis
+🔹 Certain customer segments show consistently higher profitability margins  
 
-### 💰 Revenue Analysis
-- Total Revenue (Daily & Monthly)  
-- Top customers by revenue  
-- ARPU (Average Revenue Per User)  
-- Discount impact on revenue  
-- Payment method contribution  
-- Billing status distribution  
-
----
-
-### 📱 Plan Performance
-- Highest revenue generating plan  
-- Plan-wise subscriber count  
-- Plan utilization analysis  
-- Overpricing detection using Revenue per Usage  
-
----
-
-### 📶 Usage Behavior
-- Average data usage per customer  
-- High usage vs low billing customers (potential loss)  
-- User segmentation (Heavy / Moderate / Low)  
-- Usage comparison across plan types  
-
----
-
-### 👥 Customer Insights
-- Revenue by customer segment (Prepaid vs Postpaid)  
-- Monthly spending pattern  
-- Low usage customers (downgrade opportunity)  
-
----
-
-### 🚀 Advanced Insights
-- Customers overusing plan limits → Upsell opportunity  
-- Customers underusing plans → Downgrade recommendation  
-- Revenue leakage due to pending/failed payments  
-- Correlation between usage and billing  
-
----
-
-## 📌 Key Insights
-
-- Postpaid customers generate higher revenue compared to prepaid  
-- Certain plans show high revenue but relatively lower usage (overpricing opportunity)  
-- Some customers consume high usage but generate lower revenue (potential loss)  
-- Payment failures contribute to revenue leakage  
-- Usage is positively correlated with billing amount  
+🔹 Revenue distribution is uneven, indicating opportunities for targeted marketing strategies  
 
 ---
 
 ## 💡 Business Recommendations
 
-- Improve payment success rate to reduce revenue loss  
-- Introduce targeted campaigns for high-value customers  
-- Optimize pricing for underutilized plans  
-- Offer plan upgrades for heavy usage customers  
-- Suggest cheaper plans for low usage customers to improve satisfaction  
+✅ Focus on high data usage customers with premium plans to increase revenue  
+
+✅ Design personalized offers for mid-level customers to improve conversion to high-value users  
+
+✅ Invest in retaining top-performing customer segments  
+
+✅ Optimize pricing strategies based on usage patterns  
+
+---
+
+## 🚀 Project Workflow
+Data → Cleaning → Transformation → Analysis → Insights → Business Recommendations
 
 ---
 
 ## 📈 Future Improvements
-- Normalize usage metrics (Voice vs Data units)  
-- Add visualization using Power BI  
-- Increase dataset size for better insights  
-- Implement automation using reusable functions  
+- Add data visualization (Matplotlib / Seaborn / Power BI)
+- Build interactive dashboard
+- Include predictive analysis
 
----
 
-## 📷 Project Workflow
-1. Data Collection  
-2. Data Cleaning  
-3. Data Transformation  
-4. Data Analysis  
-5. Insight Generation  
-
----
-
-## 💼 Author
-**Balasurya Sivakumar**  
-BI Executive | Power BI | SQL | Python  
-
----
-
-## ⭐ Conclusion
-This project demonstrates the ability to:
-- Work with multiple datasets  
-- Perform real-world data cleaning  
-- Conduct business-focused analysis  
-- Derive actionable insights  
-
-🚀 This is a complete end-to-end Data Analyst project.
